@@ -18,6 +18,8 @@ const navItems = [
 export const NavBar = () => {
     
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(true);
+
 
     useEffect(() => {
         
@@ -61,7 +63,26 @@ export const NavBar = () => {
                 </div>
 
                 {/* mobile nav */}
-                <div className={}>
+                <div className={cn(
+                    "fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center ",
+                    "transition-all duration-300 md:hidden",
+                    isMenuOpen ? "opacity-100 pointer-events-auto" :
+                        "opacity-0 pointer-events-none"
+                    
+                )}>
+                      <div className="flex flex-col space-y-8 text-xl">
+                    {navItems.map((items,key) => (
+                        <a
+                            key={key}
+                            href={items.href}
+                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                            onClick={()=> setIsMenuOpen(false)}
+                        >
+                            {items.name}
+
+                        </a>
+                    ))}
+                </div>
 
                 </div>
 
