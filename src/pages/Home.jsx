@@ -1,3 +1,4 @@
+import { HeroSection } from "../components/HeroSection";
 import { NavBar } from "../components/NavBar";
 import { StarBackground } from "../components/StarBackground";
 import { ToggleTheme } from "../components/ToggleTheme";
@@ -15,6 +16,11 @@ export const Home = () => {
 
           {/* navigation bar */}
           <NavBar />
+
+          {/* main content */}
+          <main>
+              <HeroSection />
+          </main>
     </div>
   );
 };
