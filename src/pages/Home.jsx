@@ -8,7 +8,6 @@ import { ToggleTheme } from "../components/ToggleTheme";
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-     
       {/* toggle theme */}
       <ToggleTheme />
 
@@ -16,15 +15,15 @@ export const Home = () => {
 
       <StarBackground />
 
-          {/* navigation bar */}
-          <NavBar />
+      {/* navigation bar */}
+      <NavBar />
 
-          {/* main content */}
-          <main>
-              <HeroSection />
+      {/* main content */}
+      <main className="pt-24">
+        <HeroSection />
         <AboutSection />
         <SkillsSection />
-          </main>
+      </main>
     </div>
   );
 };
