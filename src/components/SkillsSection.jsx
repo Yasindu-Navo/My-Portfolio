@@ -1,6 +1,7 @@
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 90, category: "frontend" },
+  { name: "HTML", level: 90, category: "frontend" },
+  { name: "CSS", level: 90, category: "frontend" },
   { name: "JavaScript", level: 85, category: "frontend" },
   { name: "React", level: 88, category: "frontend" },
   { name: "Tailwind CSS", level: 85, category: "frontend" },
@@ -30,8 +31,7 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
   { name: "IntelliJ IDEA", level: 85, category: "tools" },
 
-  // Cloud & DevOps
-  { name: "AWS (Basics)", level: 65, category: "tools" },
+ 
 
   // AI / Data
   { name: "Machine Learning", level: 70, category: "data" },
@@ -60,6 +60,21 @@ export const SkillsSection = () => {
                                 <h3 className="font-semibold text-lg" > {skill.name }</h3>
                                 </div>
                             
+                            <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
+                                <div
+                                    className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease_out]"
+                                    style={{width: skill.level + "%"}}/>
+
+                        
+                            </div>
+
+                            <div className="text-right mt-1">
+                                <span className="text-sm text-muted-foreground ">
+                                        {skill.level}%
+                                </span>
+
+                            </div>
+
                         </div>
                     ))}
                 </div>
