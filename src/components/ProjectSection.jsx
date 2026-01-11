@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Play } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, Play } from "lucide-react";
 
 const projects = [
   {
@@ -119,7 +119,18 @@ export const ProjectSection = () => {
 
             </div>
           ))}
-        </div>
+              </div>
+              
+              <div className="text-center mt-12">
+                  <a
+                      className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                      href="https://github.com/Yasindu-Navo"
+                      target="_blank"
+                  >
+                      Check My Github <ArrowRight size={16} />
+                  </a>
+                  
+              </div>
       </div>
     </section>
   );
