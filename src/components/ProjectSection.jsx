@@ -76,7 +76,14 @@ export const ProjectSection = () => {
                           
                       </div>
                       
-                </div>
+                  </div>
+                  
+                  <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+                  <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
+                  
+
+                  
+                
 
             </div>
           ))}
