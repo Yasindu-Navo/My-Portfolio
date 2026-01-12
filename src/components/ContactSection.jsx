@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Github, GithubIcon, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import React from "react";
 
 function ContactSection() {
@@ -60,6 +60,27 @@ function ContactSection() {
                           </div>
 
 
+                            <div className="flex items-start space-x-4">
+                              <div className="p-3 rounded-full  bg-primary/10 ">
+                                  <Github className="w-6 h-6 text-primary"/>
+                              </div>
+                              <div>
+                              <h4 className="font-medium">GitHub</h4>
+                              <a
+                                  href="https://github.com/Yasindu-Navo"
+                                      className="text-muted-foreground hover:text-primary transition-colors"
+                                      target="_blank"
+                              >
+                                    github.com/Yasindu-Navo
+
+
+                                  </a>
+                              </div>
+                              
+                          </div>
+
+
+
                            <div className="flex items-start space-x-4">
                               <div className="p-3 rounded-full  bg-primary/10 ">
                                   <Phone className="w-6 h-6 text-primary"/>
@@ -77,6 +98,9 @@ function ContactSection() {
                           </div>
 
                       </div>
+
+                  
+
                   </div>
 
                   
