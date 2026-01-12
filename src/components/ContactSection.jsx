@@ -1,5 +1,6 @@
-import { Github, GithubIcon, Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, GithubIcon, Instagram, Linkedin, Mail, Phone, Send } from "lucide-react";
 import React from "react";
+import { cn } from "../lib/utils";
 
 function ContactSection() {
   return (
@@ -136,6 +137,16 @@ function ContactSection() {
                                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
                               />
                           </div>
+
+                          <button
+                              type="submit"
+                              className={cn("cosmic-button w-full flex items-center justify-center gap-2"
+                                  
+                              )}
+                          >
+                              Send Message
+                              <Send size={16}/>
+                          </button>
                           
                       </form>
                       
