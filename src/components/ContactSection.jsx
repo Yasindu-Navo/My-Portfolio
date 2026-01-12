@@ -101,13 +101,45 @@ function ContactSection() {
 
                   
 
-                  </div>
+                  </div >
 
                   
 
 
 
+                  <div className="bg-card p-8 rounded-lg shadow-xs">
+                      <h3 className="text-2xl font-semibold mb-6">send Me a Message</h3>
 
+                      <form className="space-y-6">
+                          <div> 
+                              <label htmlFor="name" className="block text-sm fonr-medium mb-2">Your Name</label>
+                              <input
+                                  type="text" id="name" name="name" placeholder="Alex heils..."required
+                                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
+                              />
+                          </div>
+
+
+                             <div> 
+                              <label htmlFor="email" className="block text-sm fonr-medium mb-2">Email</label>
+                              <input
+                                  type="email" id="email" name="email" placeholder="john@gmail.com" required
+                                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
+                              />
+                          </div>
+
+
+                             <div> 
+                              <label htmlFor="message" className="block text-sm fonr-medium mb-2">Message</label>
+                              <textarea
+                                   id="message" name="message" placeholder="Hi,I'd like to talk about..." required
+                                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
+                              />
+                          </div>
+                          
+                      </form>
+                      
+            </div>
              
                   
         </div>
