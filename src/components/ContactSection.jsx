@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Linkedin, Mail, Phone } from "lucide-react";
 import React from "react";
 
 function ContactSection() {
@@ -22,6 +22,7 @@ function ContactSection() {
 
 
                       <div className="space-y-6 justify-center">
+                          
                           <div className="flex items-start space-x-4">
                               <div className="p-3 rounded-full  bg-primary/10 ">
                                   <Mail className="w-6 h-6 text-primary"/>
@@ -34,7 +35,45 @@ function ContactSection() {
                               >
                                   yasindunavodh06@gmail.com
                                   </a>
-                                  </div>
+                              </div>
+                              
+                          </div>
+
+
+                           <div className="flex items-start space-x-4">
+                              <div className="p-3 rounded-full  bg-primary/10 ">
+                                  <Linkedin className="w-6 h-6 text-primary"/>
+                              </div>
+                              <div>
+                              <h4 className="font-medium">Linkedin</h4>
+                              <a
+                                  href="https://www.linkedin.com/in/yasindu-navodh/"
+                                      className="text-muted-foreground hover:text-primary transition-colors"
+                                      target="_blank"
+                              >
+                                    www.linkedin.com/in/yasindu-navodh
+
+
+                                  </a>
+                              </div>
+                              
+                          </div>
+
+
+                           <div className="flex items-start space-x-4">
+                              <div className="p-3 rounded-full  bg-primary/10 ">
+                                  <Phone className="w-6 h-6 text-primary"/>
+                              </div>
+                              <div>
+                              <h4 className="font-medium">Phone</h4>
+                              <a
+                                  href="tel:+94768663035"
+                                  className="text-muted-foreground hover:text-primary transition-colors"
+                              >
+                                +94 76-8663035
+                                  </a>
+                              </div>
+                              
                           </div>
 
                       </div>
