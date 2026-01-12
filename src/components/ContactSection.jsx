@@ -37,6 +37,7 @@ function ContactSection() {
       );
       setStatusMessage("Message sent successfully!");
       setFormData({ from_name: "", from_email: "", message: "" });
+      setTimeout(() => setStatusMessage(""), 5000);
     } catch (error) {
       setStatusMessage("Failed to send message. Please try again.");
       console.error("EmailJS error:", error);
@@ -192,7 +193,7 @@ function ContactSection() {
                 type="submit"
                 disabled={isLoading}
                 className={cn(
-                  "cosmic-button w-full flex items-center justify-center gap-2",
+                  "cosmic-button w-full flex items-center justify-center gap-2 cursor-pointer",
                   isLoading && "opacity-50 cursor-not-allowed"
                 )}
               >
