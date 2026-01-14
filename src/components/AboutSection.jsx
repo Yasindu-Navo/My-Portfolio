@@ -40,7 +40,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/D.Y.Y.Navodh UWU_CST_21_024.pdf"
+                download="Yasindu-Navodh-CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 {" "}
