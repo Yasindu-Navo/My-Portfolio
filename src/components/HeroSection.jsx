@@ -36,8 +36,8 @@ export const HeroSection = () => {
 
           <div className="flex justify-center md:justify-end">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/30 via-purple-500/30 to-pink-500/30 rounded-full blur-xl animate-pulse opacity-75"></div>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full animate-spin-slow"></div>
+              <div className="absolute inset-0 bg-linear-to-r from-primary/30 via-purple-500/30 to-pink-500/30 rounded-full blur-xl animate-pulse opacity-75"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-primary/10 to-transparent rounded-full animate-spin-slow"></div>
               <img
                 src="/My-img-portfolio.png"
                 alt="Yasindu Navodh - Portfolio Image"
