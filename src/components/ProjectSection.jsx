@@ -8,8 +8,8 @@ const projects = [
       "A full-stack e-commerce platform built for a real client, featuring personalized jewelry recommendations, virtual try-on functionality, and secure backend integration.",
     image: "/projects/project1.png",
     tags: ["React", "Spring Boot", "PostgreSQL", "Python", "NLP"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://wave-mirissa-frontend.vercel.app/",
+    githubUrl: "https://github.com/Yasindu-Navo/WaveMirissa-frontend.git",
   },
 
   {
@@ -20,7 +20,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "AI"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Yasindu-Navo/NeuroBlog-FE.git",
   },
 
   {
@@ -30,8 +30,9 @@ const projects = [
       "Web-based donation system connecting donors with verified beneficiaries, including authentication, payment processing, and beneficiary verification workflows.",
     image: "/projects/project3.png",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl:
+      "https://drive.google.com/file/d/1StlSbqIZLFHI6ZPcCfVdOm5fu34JDZdw/view",
+    githubUrl: "https://github.com/Yasindu-Navo/LifeLine.git",
   },
 
   {
@@ -42,7 +43,7 @@ const projects = [
     image: "/projects/project4.png",
     tags: ["Python", "Deep Learning", "Time Series", "Data Visualization"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Yasindu-Navo/SolarForcast-UI.git",
   },
 ];
 
